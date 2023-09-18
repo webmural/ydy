@@ -1,0 +1,42 @@
+::selection {
+  background: purple;
+  color: #ec0;
+}
+
+:any-link {
+  background: hotpink;
+  color: inherit;
+  transition: 666ms ease-out;
+}
+
+:any-link:only-child {
+  background: hotpink;
+}
+
+:focus {
+  filter: hue-rotate(-36deg);
+  outline: 1ch solid purple;
+}
+
+:active {
+  filter: hue-rotate(-36deg);
+}
+
+html {
+  background-color: deeppink;
+  background-image: linear-gradient(
+    0turn,
+    transparent 0%,
+    transparent 38%,
+    coral 38%,
+    coral 62%,
+    #dc2 62%,
+    #dc2
+  );
+  color: #330330;
+  transition: 666ms ease-in;
+}
+
+html:focus-within {
+  background-color: hotpink;
+}

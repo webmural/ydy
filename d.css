@@ -6,7 +6,7 @@ a {
   border-radius: 100%;
   display: inline-flex;
   padding: 1ch;
-  text-decoration: dotted line-through;
+  text-decoration: dotted overline;
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 body {
   margin: auto;
   overflow-wrap: anywhere;
-  padding: 3ch;
+  padding: 2ch;
 }
 
 figure {
@@ -38,16 +38,9 @@ figcaption {
   text-transform: lowercase;
 }
 
-ul {
+menu {
   align-items: center;
-  contain: layout;
   display: flex;
-  justify-content: space-around;
-  font-size: 1.236em;
-}
-
-ul ~ ul {
- font-size: 1em; 
 }
 
 li {
@@ -60,12 +53,8 @@ abbr {
   margin: auto;
 }
 
-small {
-  font-size: .8rem;
-}
-
 @media (orientation: portrait) {
-  ul {
+  menu {
     flex-flow: column;
   }
 }

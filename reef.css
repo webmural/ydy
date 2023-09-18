@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>coral++</title>
+  <style>
+    svg {
+      background: coral linear-gradient(
+      darkviolet 0%,
+      darkviolet 38%,
+      coral 38%,
+      coral 62%,
+      #dc2 62%,
+      #dc2
+    );
+  }
+  </style>
+</svg>
